@@ -12,7 +12,7 @@ export function RecentSearches({ searchesArr = [] }) {
         <EmptyResult message="No recent searches" className={"w-full"} />
       ) : (
         <div className="grid gap-[16px] md:grid-cols-2 lg:grid-cols-3">
-          {searchesArr.map((search) => {
+          {searchesArr.map((search, index) => {
             const sState = search.searchState;
             let data = {
               type: search.type,
@@ -36,7 +36,6 @@ export function RecentSearches({ searchesArr = [] }) {
               };
             }
 
-            console.log("data", search);
             if (search.type === "hotel") {
               data = {
                 ...data,
@@ -48,7 +47,14 @@ export function RecentSearches({ searchesArr = [] }) {
               };
             }
 
-            return <SearchHistoryCard key={search._id} search={data} />;
+            return (
+              <div
+                key={search._id}
+                className={index < 2 ? "opacity-40" : undefined}
+              >
+                <SearchHistoryCard search={data} />
+              </div>
+            );
           })}
         </div>
       )}
