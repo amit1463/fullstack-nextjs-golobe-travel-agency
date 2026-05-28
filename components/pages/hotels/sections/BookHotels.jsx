@@ -26,7 +26,7 @@ export function BookHotels() {
           }
           placeName={ "Melbourne" }
           subTitle={ "An amazing journey" }
-          cost={ 700 }
+          cost={ 1050 }
           btnHref={ `${routes.hotels.path}/${123}/book` }
           btnTitle={ "Book a Hotel" }
         />
@@ -36,7 +36,7 @@ export function BookHotels() {
           }
           placeName={ "Paris" }
           subTitle={ "A Paris Adventure" }
-          cost={ 600 }
+          cost={ 900 }
           btnHref={ `${routes.hotels.path}/${123}/book` }
           btnTitle={ "Book a Hotel" }
         />
@@ -46,7 +46,7 @@ export function BookHotels() {
           }
           placeName={ "London" }
           subTitle={ "London eye adventure" }
-          cost={ 350 }
+          cost={ 525 }
           btnHref={ `${routes.hotels.path}/${123}/book` }
           btnTitle={ "Book a Hotel" }
         />
@@ -56,7 +56,7 @@ export function BookHotels() {
           }
           placeName={ "Columbia" }
           subTitle={ "Amazing streets" }
-          cost={ 700 }
+          cost={ 1050 }
           btnHref={ `${routes.hotels.path}/${123}/book` }
           btnTitle={ "Book a Hotel" }
         />

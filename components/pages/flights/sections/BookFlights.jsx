@@ -24,7 +24,7 @@ export function BookFlights() {
           }
           placeName={ "Melbourne" }
           subTitle={ "An amazing journey" }
-          cost={ 700 }
+          cost={ 1050 }
           btnTitle={ "Book Hotel" }
           btnHref={ "/hotels" }
         />
@@ -34,7 +34,7 @@ export function BookFlights() {
           }
           placeName={ "Paris" }
           subTitle={ "A Paris Adventure" }
-          cost={ 600 }
+          cost={ 900 }
           btnTitle={ "Book Hotel" }
           btnHref={ "/hotels" }
         />
@@ -44,7 +44,7 @@ export function BookFlights() {
           }
           placeName={ "London" }
           subTitle={ "London eye adventure" }
-          cost={ 350 }
+          cost={ 525 }
           btnTitle={ "Book Hotel" }
           btnHref={ "/hotels." }
         />
@@ -54,7 +54,7 @@ export function BookFlights() {
           }
           placeName={ "Columbia" }
           subTitle={ "Amazing streets" }
-          cost={ 700 }
+          cost={ 1050 }
           btnTitle={ "Book Hotel" }
           btnHref={ "/hotels." }
         />
